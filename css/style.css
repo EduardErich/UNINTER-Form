@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.container {
+    text-align:center;
+    padding: 50px;
+    background-color: transparent;
+    border: 1px solid white; 
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    color: white;   
+    width: 500px;
+} 
+
+select {
+    border-radius: 40px;
+    width: 100%;
+    height: 50px;;
+    background-color: transparent;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid white; 
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+}
+
+.items {
+    background-color: white;
+    color:red;
+}
+
+.container .input, .bs-input {
+    border-radius: 40px;
+    width: 100%;
+    height: 50px;;
+    background-color: transparent;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid white; 
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+}
+
+.input::placeholder{
+    color: white;
+    font-weight: 400
+}
+
+.container .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  
+}
+
+button,
+.subbtn {
+    width: 100%;
+    height: 50px;
+    border: 2px;
+    border: 2px solid black;
+    background-color: transparent;
+    color: red;
+    border-radius: 40px;
+    margin: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.danger {
+border-color: white;
+  color:white
+}
+
+.danger:hover {
+    background: white;
+    color: red;
+  }
+
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+p, label {
+    font-weight: 200;
+    font-size: 16px;
+    
+}
+
+.container .copyright {
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+ 
+    
+}
